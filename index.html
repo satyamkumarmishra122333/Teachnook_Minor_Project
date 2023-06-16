@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- font link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto+Condensed:ital@0;1&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+    
+ 
+    
+    <style>
+        * {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .maindiv {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            box-shadow: 5px 5px 12px black;
+            background-color: rgb(142, 220, 142);
+            padding: 10px 10px;
+
+        }
+
+        .a,
+        .b,
+        .c,
+        .d,
+        .e,
+        .f,
+        .g,
+        .h,
+        .i,
+        .j,
+        .k,
+        .l,
+        .m,
+        .n {
+            padding: 10px;
+            box-shadow: 5px 5px 11px black;
+            background-color: antiquewhite;
+            padding: 10px 10px;
+
+            border-radius: 9px;
+            margin: 8px;
+            margin-top: 20px;
+
+        }
+
+        header {
+            text-align: center;
+            font-size: 45px;
+            border-radius: 20px 2px;
+            box-shadow: 7px 7px 10px;
+            text-shadow: 0px 2px 8px rgb(58, 125, 4);
+            border-style:outset;
+            border-color: rgb(45, 192, 165);
+            border-width: 7px;
+            background:linear-gradient(120deg , #FF9933 , white , #138808);
+            background-size: 600% 600%;
+            animation: bglinear 5s infinite ;
+            
+        }
+        @keyframes bglinear {
+            0%{
+                background-position: 0 85%;
+            }
+            50%{
+                background-position: 0 0;
+            }
+            100%{
+                background-position: 100% 0;
+            }
+        }
+
+        p {
+            width: 200px;
+
+        }
+
+        .heading {
+            font-family: 'Montserrat', sans-serif;
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Roboto Condensed', sans-serif;
+            font-size: large;
+            text-shadow: 2px 2px 1px rgb(159, 189, 143);
+            border: 5px 5px 1px antiquewhite;
+            
+        }
+        footer {
+            text-align: center;
+            background-color: aquamarine;
+            box-shadow: 10px 10px 10px black;
+            background:linear-gradient(120deg , #FF9933 , white , #138808);
+            background-size: 600% 600%;
+            animation: bglinear 5s infinite ;
+        }
+        img{
+            border-radius: 7px;
+            box-shadow: 3px 5px 5px rgb(159, 189, 143);
+        }
+    
+       
+
+        .navbar{
+            
+            background: linear-gradient(10deg,#FF9933 , white , #138808);
+            height: 40px;
+            font-size: 25px;
+            box-shadow:10px 2px 10px black;
+            border-radius: 2px;
+        
+            
+        }
+        .navbar ul  :hover{
+            font-size: 30px;
+            color:white;
+            text-shadow: 0px 0px 10px black;
+            
+        }
+
+        .navbar ul li{
+            display: inline;
+            padding: 20px;
+            position:relative;
+            
+            
+        }
+        a{
+            text-decoration: none;
+            color:black;
+
+        }
+    </style>
+    
+</head>
+
+<body>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    
+    
+
+<div class="navbar">
+    <ul>
+        <li><a href ="index.html">Home</a></li>
+        <li><a href="about.html" >About</a></li>
+        <li><a href="registration.html" >Registration</a></li>
+
+    </ul>
+</div><br>
+    
+    <header><h3>HISTORICAL PLACES IN <span class="auto-typed"></span></h3></header>
+    <script>
+        var typed =new Typed(".auto-typed", {
+            strings: ["INDIA" ,"BHARAT"],
+            typeSpeed:150,
+            backSpeed: 150,
+            loop: true,
+        })
+    </script>
+    
+    <br><br>
+    <div class="maindiv">
+
+        <div class="a"><img src="https://ihplb.b-cdn.net/wp-content/uploads/2018/06/taj-mahal.jpg" alt="" width="200px"
+                height="150px">
+            <div class="heading"> <a href="https://en.wikipedia.org/wiki/Taj_Mahal">Taj Mahal</a></div>
+            <br>
+            <hr>
+            <p>Taj Mahal, a UNESCO World Heritage Site, is one of the most famous historical places in Agra city of
+                Uttar Pardesh and should be visited at least once in a lifetime. It represents the pinnacle of grand
+                Mughal architecture and is built entirely of white marble. Shah Jahan built this magnificent monument
+                for one of his favorite wife, Mumtaz Mahal.</p>
+            <hr>
+           
+        </div>
+
+        <div class="b"><img src="https://ihplb.b-cdn.net/wp-content/uploads/2018/06/Red-Fort-Delhi.jpg" alt=""
+                width="200px" height="150px">
+            <div class="heading"> <a href="https://en.wikipedia.org/wiki/Red_Fort"> Red Fort </a></div>
+            <br>
+            <hr>
+            <p>Red Fort, a UNESCO World Heritage Site, is an outstanding combination of size and aesthetics.
+                Construction took over a period of ten years, from 1638 to 1648. When the Mughal emperor, Shah Jahan,
+                came to Delhi shifting his capital from Agra to Delhi, the fort was his idea of residence. It was then
+                famous as the Qila-e-Mubarak.</p>
+            <hr>
+        </div>
+
+
+        <div class="c"><img src="https://ihplb.b-cdn.net/wp-content/uploads/2018/06/Qutub-Minar.jpg" alt=""
+                width="200px" height="150px">
+            <div class="heading"> <a href="https://en.wikipedia.org/wiki/Qutb_Minar">Qutub Minar</a> </div>
+            <br>
+            <hr>
+            <p>Qutub Minar is one of the must visit historical places in Delhi and a UNESCO World Heritage Site. Built
+                by Qutb-ud-din Aibak, it is testimony to the first Muslim kingdom in India. Touching the skies at a
+                height of almost 240ft, it is one of the tallest ancient towers all over the world. </p>
+            <hr>
+        </div>
+
+
+        <div class="d"><img src="https://ihplb.b-cdn.net/wp-content/uploads/2018/06/Fatehpur-Sikri-1.jpg" alt=""
+                width="200px" height="150px">
+            <div class="heading"> <a href="https://en.wikipedia.org/wiki/Fatehpur_Sikri">Fatehpur Fort </a></div>
+            <br>
+            <hr>
+            <p>
+                Fatehpur Sikri, situated at a distance of almost 40km to the west of Agra, was the short-lived capital
+                of the Mughal emperor Akbar. It served as a short lived capital of the Mughal Empire in the 16th
+                century. However, it had to be abandoned because of problems with the water supply, among other things.
+            </p>
+            <hr>
+        </div>
+        <div class="e">
+            <img src="https://ihplb.b-cdn.net/wp-content/uploads/2018/06/Hawa-Mahal.jpg" width="200" height="150px"
+                alt="">
+            <div class="heading"> <a href="https://en.wikipedia.org/wiki/Hawa_Mahal">Hawa Mahal</a> </div>
+            <br>
+            <hr>
+            <p>Your tour is incomplete unless you visit the Hawa Mahal in Jaipur. Hawa Mahal, or the Palace of Winds,
+                was more of a gallery than a monument. It was designed by Lal Chand Ustad as a gallery from where ladies
+                of the royal household could watch the everyday life in the street, since at other times, they had to
+                observe the purdah.</p>
+            <hr>
+        </div>
+        <div class="f">
+            <img src="https://ihplb.b-cdn.net/wp-content/uploads/2018/06/Gateway-of-India.jpg" alt="" width="200px"
+                height="150px"><br>
+            <div class="heading"> <a href="https://en.wikipedia.org/wiki/Gateway_of_India">Gateway Of India</a></div><br>
+            <hr>
+            <p>Gateway of India is one of the famous historical places in Mumbai. Dating back to 1924, it was as an
+                access point for entry and exit during the British period. The monument commemorates the visit of King
+                George V and Queen Masry to the city in 1911. However, the structure wasn’t complete until 1924.</p>
+            <hr>
+        </div>
+        <div class="g">
+            <img src="https://ihplb.b-cdn.net/wp-content/uploads/2018/06/Mahabodhi-Temple.jpg" alt="" width="200px"
+                height="150px">
+            <div class="heading"> <a href="https://whc.unesco.org/en/list/1056/">Mahabodhi Temple </a></div>
+            <br>
+            <hr>
+            <p>Mahabodhi Temple is where Gautam Buddha is believed to have attained enlightenment while meditating under
+                a fig tree. The Bodhi tree is the descendant of the Fig tree and lies in close proximity to the temple.
+                The earliest temple, however, dates back to Asoka’s rule in the 3rd century BC. It houses an enormous
+                Buddha statue touching the earth with his right hand.</p>
+            <hr>
+        </div>
+        <div class="h"> <img src="https://ihplb.b-cdn.net/wp-content/uploads/2018/06/Victoria-Memorial.jpg" alt=""
+                width="200px" height="150px">
+            <div class="heading"> <a href="https://en.wikipedia.org/wiki/Victoria_Memorial,_Kolkata">Victoria Memorial</a></div>
+            <br>
+            <hr>
+            <p>The Victoria Memorial is indisputably one of the best examples of British architecture in West Bengal .
+                The idea for the monument goes to Lord Curzon, the then Viceroy. While its actual designing and
+                implantation was by Sir William Emerson. Inside the premises of Victoria Memorial stands a beautiful
+                garden along with a museum containing British memorabilia</p>
+            <hr>
+        </div>
+        <div class="i">
+            <img src="https://ihplb.b-cdn.net/wp-content/uploads/2018/06/Charminar.jpg" alt="" width="200px"
+                height="150px">
+            <div class="heading"> <a href="https://en.wikipedia.org/wiki/Charminar">Charminar</a></div>
+            <br>
+            <hr>
+            <p>A popular and exciting tale revolving around the Charminar goes that it was built by Muhammad Quli Qutb
+                Shah in 1591 to honor the diving being. However, historical records state that this grand structure, and
+                an immensely popular tourist attraction is a symbol of the ending of plague in the city.</p>
+            <hr>
+        </div>
+        <div class="j">
+            <img src="https://ihplb.b-cdn.net/wp-content/uploads/2018/06/agra-fort-1.jpg" alt="" width="200px"
+                height="150px">
+            <div class="heading"> <a href="https://en.wikipedia.org/wiki/Agra_Fort">Agra Fort</a></div>
+            <br>
+            <hr>
+            <p>Agra Fort is inarguably one of the remarkable historical places in India, which was given the title of
+                World Heritage Site by UNESCO in 1983. This opulent structure features the Mughal style of architecture
+                and when viewed from above, the fort displays the shape of a semicircle enclosed by massive double
+                battlemented walls made of red sandstone.</p>
+            <hr>
+        </div>
+        <div class="k">
+            <img src="https://ihplb.b-cdn.net/wp-content/uploads/2016/04/Gwalior-fort-Gwalior.jpg" alt="" width="200px"
+                height="150px">
+            <div class="heading"> <a href="https://en.wikipedia.org/wiki/Gwalior_Fort">Gwalior Fort</a> </div>
+            <br>
+            <hr>
+            <p>If you truly love to explore the ancient monuments in India, Gwalior Fort is a must-visit place. An
+                architectural marvel of the 8th century, Gwalior Fort is reputed to be one of the most beautiful
+                fortresses in the country and is a thriving tourist destination in Madhya Pradesh.Witness the Hindu and
+                Islamic architecture at the monuments and temples inside the fort. </p>
+            <hr>
+        </div>
+        <div class="l">
+            <img src="https://ihplb.b-cdn.net/wp-content/uploads/2021/01/old-fort.jpg" alt="" width="200px"
+                height="150px">
+            <div class="heading"> <a href="https://en.wikipedia.org/wiki/Purana_Qila">Purana Qila</a></div>
+            <br>
+            <hr>
+            <p>Also known as Purana Qila, Old Fort is one of the top tourist attractions in Delhi. It is often referred
+                to as Shergarh after the Mughal Emperor Sher Shah Suri, who started its construction. The fort is said
+                to be inhabited for the past 2,500 years and the excavations done at the site show evidence for things
+                belonging to the pre-Mauryan era. </p>
+            <hr>
+        </div>
+        <div class="m">
+            <img src="https://ihplb.b-cdn.net/wp-content/uploads/2018/06/mysore-palace.jpg" width="200px" height="150px"
+                alt="">
+            <div class="heading"> <a href="https://en.wikipedia.org/wiki/Mysore_Palace">Mysore Palace </a></div>
+            <br>
+            <hr>
+            <p>If you are a fan of ancient architecture, Mysore Palace is one of the best historical places to visit in
+                India. It is built in exquisite Indo-Saracenic style of architecture and is a magnificent edifice in
+                Karanataka. Mysore Palace is also known as the Amba Vilas Palace, which was the former residence of the
+                royal family of Mysore and it still is. </p>
+            <hr>
+        </div>
+        <div class="n">
+            <img src="https://ihplb.b-cdn.net/wp-content/uploads/2018/06/Brihdeshwara-temple.jpg" alt="" width="200px"
+                height="150px">
+            <div class="heading"> <a href="https://en.wikipedia.org/wiki/Brihadisvara_Temple,_Thanjavur">Brihadisvara Temple</a></div>
+            <br>
+            <hr>
+            <p>Brihadisvara Temple, built by the Chola king Rajaraja Cholan is among the most prominent temples of the
+                Chola dynasty. Designed by the celebrated architect Sama Varma between 1003 and 1010 AD, Brihadisvara
+                Temple is also one of the largest South Indian temples.</p>
+            <hr>
+            </div>
+        <!-- <div class="o"></div>
+        <div class="p"></div>
+        <div class="q"></div>
+        <div class="r"></div> -->
+    </div><br>
+    <div class="audio" align="center"> <b>National Anthem</b> <br> <br>
+        <audio src="https://knowindia.india.gov.in/assets/images/jan.mp3" controls></audio>
+    </div><br>
+    <footer>★Designed by Satyam Kumar &copy; 2023★</footer>
+</body>
+
+</html>

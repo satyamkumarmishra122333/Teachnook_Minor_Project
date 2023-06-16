@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+        background-color: rgb(108, 175, 145);
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        border: 2px;
+        border-style: groove;
+        border-width: 5px;
+        
+        }
+
+        .Personal{
+            background-color: rgb(6, 5, 86);
+            border-color: aqua;
+            border-radius: 120px;
+            border-width: 2px;
+            padding: 5px;
+            width: 149px;
+            border-width: 5px;
+            border-style:outset;
+            color:antiquewhite ;
+            box-shadow: 2px 10px 10px black , 10px 12px 16px blue;
+            font-size:small;
+            background-image:linear-gradient(130deg,#0061ff,#aab2ff,#fa9372)
+        }
+        .room{
+            background-color: rgb(6,5,86);
+            border-radius: 49px 1px;
+            border-color: cyan;
+            border-style:outset;
+            border-width: 3px;
+            width: 300px;
+            font-size: small;
+            margin-top: 20px;
+            color: antiquewhite;
+            box-shadow:2px 10px 10px black , 5px 6px 7px blue;
+            margin-bottom: 20px;
+            background-image:linear-gradient(130deg,#0061ff,#aab2ff,#fa9372)
+
+        }
+        body{
+            background-image: url("https://images.pexels.com/photos/4505907/pexels-photo-4505907.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+            background-size: cover;
+        }
+    </style>
+    <script>
+        function abc(){
+            alert("Your Response has been Submitted");
+        }
+    </script>
+</head>
+<body>
+    <div align="center">
+        <div class="room"><h1><u>Registration </u></h1></div>
+        <h3 class="Personal"><u>Personal Information</u></h3><br>
+        <label for="">Enter Name</label>
+        <input type="text" placeholder="Name"><br> <br>
+        <label for="">Select Gender</label>
+        <input type="radio" name="a">Male
+        <input type="radio" name="a">Female <br><br>
+        Enter Mob No <input type="number" placeholder="Mob no"> <br><br>
+        <h3 class="Personal"><u>Booking Time details</u></h3> <br>
+        Enter Checkin date <input type="date"> <br><br>
+        Enter Checkin Time <input type="time"> <br><br>
+        Enter Checkin File <input type="file"> <br><br>
+        <input type="submit" onclick=abc()>
+    </div>
+    <br>
+</body>
+</html>
